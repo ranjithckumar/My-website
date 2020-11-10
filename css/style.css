@@ -1,0 +1,301 @@
+
+
+/*-----------------*/
+/*Basic Setup*/
+/*-----------------*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+html {
+    background-color: #FEFFFF;
+    color: #2db1b1;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*-----------------*/
+/*Button*/
+/*-----------------*/
+
+.btn-small {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 200;
+    text-decoration: none;
+    border-radius: 200px;
+    margin-left: 110px;;
+    color: black;
+    background-color:#FFFFFF;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-small:hover,
+.btn-small:active {
+    background-color: white;
+}
+
+
+/*-----------------*/
+/*Header*/
+/*-----------------*/
+header {
+    background-image:linear-gradient(#ff6f32de,#ff6f32de),url(/img/home.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+    
+    .hero-text-box {
+        position: absolute;
+        width: 1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+        font-size: 240%;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        /* text-align: center; */
+        font-family: 'BuenosAiresTrial-Bold','AdobeInvisFont','MyriadPro-Regular';
+    }
+    h6 {
+        color:#FEB697;
+        font-family: 'MuktaMahee-Regular','AdobeInvisFont','MyriadPro-Regular';
+        opacity: 1;
+        margin-bottom: 30px;
+        /* text-align: center; */
+        font-size: 75%;
+    }
+    
+    
+/*-----------------*/
+/*Logo*/
+/*-----------------*/
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    float: left;
+}
+
+/*-----------------*/
+/*Navigation bar elements*/
+/*-----------------*/
+.main-nav {
+    float: right;
+    margin-top: 60px;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 30px ;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    padding: 5px 15px;
+    font-weight: 100;
+    border-radius: 100px;
+    color: black;
+    background-color:#FFFFFF;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/*-----------------*/
+/*container*/
+/*-----------------*/
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-----------------*/
+/*left portion of container*/
+/*-----------------*/
+
+.left-portion {
+    width: 50%;
+    margin-top: 40px;
+    float: left;
+}
+#size {
+    font-size: 50px;
+}
+.right-portion {
+    width: 50%;
+    margin-top: 40px;
+    float: left;
+}
+.main-text {
+    color: black;
+    margin-bottom: 40px;
+}
+
+#heading1 {
+    margin-left: 330px;
+}
+#heading2 {
+    margin-left: 150px;
+}
+.long-copy{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.row ,span-1-of-3 ,h4 {
+  margin-top: 5px;
+  color: black;
+}
+#icons{
+    margin-left: 250px;
+}
+.icon-color {
+    color: rgb(255, 72, 0);
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.mission {
+    background-image:linear-gradient(#b1755cde,#b1755cde),url(/img/home.png);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    margin-top: 40px;
+}
+
+.left {
+    width: 25%;
+    margin-top: 20px;
+    float: left;
+    color: #5E5E5E;
+}
+.right {
+    width: 75%;
+    margin-top: 20px;
+    float: left;
+    color: #FFFFFF;
+}
+.left h3 {
+    margin-left: 20%;
+}
+.right p {
+    margin-right: 30%;
+}
+
+.company{
+    margin-top: 5%;
+    background-color: #F5F0EC;
+}
+.company p{
+    color: #272727;
+    margin: 5% 10% 2% 30%;
+}
+.company img {
+    width:60%;
+    margin:1% 10% 2% 15% ;
+}
+
+/*------------*/
+/*----signup----*/
+
+
+.signup {
+    background-image:linear-gradient(#ff6f32de,#ff6f32de),url(/img/boy.png);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+
+.btns {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 200;
+    text-decoration: none;
+    border-radius: 200px;
+    margin-left: 450px;
+    margin-top: 10px;
+    color: gray;
+    background-color:#FFFFFF;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.group {
+  position: relative;
+  color: white;
+}
+.group .form-input {
+    background: none;
+    background-color: #fff;
+    color: grey;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width:55%;
+    height: 2%;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 25px 60px;
+    
+}
+
+.left {
+    width: 50%;
+    margin-top: 40px;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    margin-top: 40px;
+    float: left;
+}
+.form-input-table {
+    margin-left: 60px;
+}
+footer {
+    background: linear-gradient(#49413dde,#49413dde);
+}
+#address {
+    position:relative;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#social-icon {
+    margin-left:250px;
+}
